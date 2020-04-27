@@ -5,7 +5,7 @@
 ```
 
 ## comp.vcf 
-Calls made by aligning short reads against build 38 of the human reference, then 
+Calls were made by aligning short reads against build 38 of the human reference, then 
 doing a bespoke local assembly of 
 those reads in five regions, followed by running a bespoke caller on the assemblies. 
 
