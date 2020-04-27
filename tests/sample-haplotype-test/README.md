@@ -1,16 +1,18 @@
+## run test
+
 ```
 ./run_test.sh
 ```
 
-# comp.vcf 
+## comp.vcf 
 Calls made by aligning short reads against build 38 of the human reference, then 
 doing a bespoke local assembly of 
 those reads in five regions, followed by running a bespoke caller on the assemblies. 
 
-# base.vcf 
+## base.vcf 
 Calls made from haplotype-resolved assemblies of long reads in the same sample at the same five regions. 
 
-# classifications_sequence_similarities.tsv
+## classifications_sequence_similarities.tsv
 
 After manual inspection of each region, I've indicated whether I think the base and comp calls should be matched, 
 and what the Levenshtein sequence similarity metric reports using the current truvari code 
@@ -22,10 +24,10 @@ was the intent espoused at
 
 The previous version of the truvari code does not report the sample haplotype, as far as I can tell. 
 
-# Data
+## get data 
 
 Sample HG00514. Use download scripts to fetch alignments. Local assemblies of short reads is 
-`fermi.unitigs.sorted.YC.bam`
+in `fermi.unitigs.sorted.YC.bam`.
 
 
 
