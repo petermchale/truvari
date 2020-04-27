@@ -20,7 +20,9 @@ and using a suggested edit of the truvari code in which the lines
 
 https://github.com/petermchale/truvari/blob/55500977c48e0f35eb63086968f3908700cfb5fe/truvari/truvari#L138-L139
 
-are deleted. The suggested edit results in truvari now computing sequence similarity of the 
+are deleted (corresponding to always using the ALT allele, 
+regardless of whether the event is an INS or DEL).
+The suggested edit results in truvari now computing sequence similarity of the 
 predicted haplotype in the sample genome in each region for DELs, which I believe was the intent espoused at 
 
 https://github.com/petermchale/truvari#comparing-haplotype-sequences-of-variants
