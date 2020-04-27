@@ -134,8 +134,9 @@ def create_haplotype(entryA, entryB, ref):
         """
         We compare the longer of the ref/alt sequence to increase comparability
         """
-        if entry.alts[0] == "<DEL>" or len(entry.alts[0]) < len(entry.ref):
-            return entry.chrom, entry.start, entry.stop, ref.get_seq(entry.chrom, entry.start, entry.stop).seq
+	# Peter McHale 27 Apr 2020
+#        if entry.alts[0] == "<DEL>" or len(entry.alts[0]) < len(entry.ref):
+#            return entry.chrom, entry.start, entry.stop, ref.get_seq(entry.chrom, entry.start, entry.stop).seq
         return entry.chrom, entry.start, entry.stop, entry.alts[0]
 
     a1_chrom, a1_start, a1_end, a1_seq = get_props(entryA)
@@ -162,6 +163,14 @@ def var_pctsim_lev(entryA, entryB, ref):
         allele1, allele2 = create_haplotype(entryA, entryB, ref)
     except Exception:
         return 0
+
+    # Peter McHale 27 Apr 2020 
+    print('chromosome (from base call):', entryA.chrom) 
+    print('predicted sample haplotype (from base call):', allele1) 
+    print('predicted sample haplotype (from comp call):', allele2) 
+    print('similarity of predited sample haplotypes:', Levenshtein.ratio(allele1, allele2)) 
+    print('')  
+
     return Levenshtein.ratio(allele1, allele2)
 
 
