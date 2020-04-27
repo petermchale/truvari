@@ -10,7 +10,7 @@ doing a bespoke local assembly of
 those reads in five regions, followed by running a bespoke caller on the assemblies. 
 
 ## base.vcf 
-Calls made from haplotype-resolved assemblies of long reads in the same sample at the same five regions. 
+Calls were made from haplotype-resolved assemblies of long reads in the same sample at the same five regions. 
 
 ## classifications_sequence_similarities.tsv
 
