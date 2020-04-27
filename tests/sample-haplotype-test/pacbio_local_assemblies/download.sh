@@ -1,1 +1,3 @@
-/scratch/ucgd/lustre-work/quinlan/u6018199/chaisson_2019/pacbio_local_assemblies/download.sh
+for url in $(cat urls.txt); do
+  wget --background --no-clobber $url
+done
