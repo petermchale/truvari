@@ -1,1 +1,12 @@
-/scratch/ucgd/lustre-work/quinlan/u6018199/chaisson_2019/pacbio_local_assemblies/urls.txt
+http://www-rcf.usc.edu/~mchaisso/hgsvg/local_assemblies/HG00514.h0.bam
+http://www-rcf.usc.edu/~mchaisso/hgsvg/local_assemblies/HG00514.h1.bam
+http://www-rcf.usc.edu/~mchaisso/hgsvg/local_assemblies/HG00733.h0.bam
+http://www-rcf.usc.edu/~mchaisso/hgsvg/local_assemblies/HG00733.h1.bam
+http://www-rcf.usc.edu/~mchaisso/hgsvg/local_assemblies/NA19240.h0.bam
+http://www-rcf.usc.edu/~mchaisso/hgsvg/local_assemblies/NA19240.h1.bam
+http://www-rcf.usc.edu/~mchaisso/hgsvg/local_assemblies/HG00514.h0.bam.bai
+http://www-rcf.usc.edu/~mchaisso/hgsvg/local_assemblies/HG00514.h1.bam.bai
+http://www-rcf.usc.edu/~mchaisso/hgsvg/local_assemblies/HG00733.h0.bam.bai
+http://www-rcf.usc.edu/~mchaisso/hgsvg/local_assemblies/HG00733.h1.bam.bai
+http://www-rcf.usc.edu/~mchaisso/hgsvg/local_assemblies/NA19240.h0.bam.bai
+http://www-rcf.usc.edu/~mchaisso/hgsvg/local_assemblies/NA19240.h1.bam.bai
