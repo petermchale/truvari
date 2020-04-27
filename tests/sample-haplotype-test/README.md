@@ -24,7 +24,8 @@ The previous version of the truvari code does not report the sample haplotype, a
 
 # Data
 
-Sample HG00514. Use download scripts to fetch alignments.
+Sample HG00514. Use download scripts to fetch alignments. Local assemblies of short reads is 
+`fermi.unitigs.sorted.YC.bam`
 
 
 

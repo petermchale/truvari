@@ -1,0 +1,1 @@
+/scratch/ucgd/lustre-work/quinlan/u6018199/chaisson_2019/pacbio_local_assemblies/download.sh
