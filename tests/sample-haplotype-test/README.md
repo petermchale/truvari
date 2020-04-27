@@ -32,7 +32,7 @@ matching calls from non-matching calls (see `classifications_sequence_similariti
 
 ## get data 
 
-Sample HG00514. Use download scripts to fetch alignments. Local assemblies of short reads is 
+I used sample HG00514. Use download scripts to fetch the alignments and reference. Local assemblies of short reads is 
 in `fermi.unitigs.sorted.YC.bam`.
 
 
