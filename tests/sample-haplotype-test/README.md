@@ -27,7 +27,7 @@ predicted haplotype in the sample genome in each region for DELs, which I believ
 
 https://github.com/petermchale/truvari#comparing-haplotype-sequences-of-variants
 
-The previous version of the truvari code does not report the sample haplotype, as far as I can tell. 
+The previous version of the truvari code does not report the sample haplotype in the case of DELs, as far as I can tell. 
 The suggested edit results in a sequence-similarity measure that better differentiates 
 matching calls from non-matching calls (see `classifications_sequence_similarities.tsv`). 
 
